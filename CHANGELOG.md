@@ -13,7 +13,7 @@ First public release, published as `alvaro-ruiz-lab.al-lab-dark`. Versions 1.0 t
 - Syntax colors for every language, based on the Dark+ rules of VS Code with the C# palette for strings, comments and control keywords.
 - Rules for Unity shaders and HLSL, C/C++ macros and directives, YAML anchors, Python `self`/`cls`, Bash options, diff and Git commit messages, and Blazor components.
 - C# semantic colors for namespaces, events, constants, enum members, delegates, type parameters, extension methods, string escapes, excluded code, and strikethrough for deprecated symbols.
-- Support for the modern workbench layout of recent VS Code versions: the borders of the floating panels and the activity bar follow the theme, and use the accent in the Bold variants.
+- Support for the modern workbench layout of recent VS Code versions: the borders of the floating panels and the activity bar follow the theme, and use the accent in the Bold variants; the active tab and the active activity bar icon get an accent-tinted background.
 
 ### Changed
 

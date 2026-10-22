@@ -15,6 +15,7 @@
         "sash.hoverBorder": "#57C93F",
         "surface.border": "#57C93F4D",
         "modernSash.gripForeground": "#57C93F99",
+        "modernTab.activeBackground": "#57C93F4D",
         "scrollbar.shadow": "#00000066",
         "textLink.foreground": "#4EC9B0",
         "textLink.activeForeground": "#6FD9C4",

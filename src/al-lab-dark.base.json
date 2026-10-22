@@ -15,6 +15,7 @@
         "sash.hoverBorder": "{acc}",
         "surface.border": "#262626",
         "modernSash.gripForeground": "#CCCCCC66",
+        "modernTab.activeBackground": "{acc@20}",
         "scrollbar.shadow": "#00000066",
         "textLink.foreground": "#4EC9B0",
         "textLink.activeForeground": "#6FD9C4",
@@ -408,6 +409,7 @@
     "$bold": {
         "surface.border": "{acc@30}",
         "modernSash.gripForeground": "{acc@60}",
+        "modernTab.activeBackground": "{acc@30}",
         "editorCursor.foreground": "{accText}",
         "editorLineNumber.activeForeground": "{accText}",
         "sideBar.border": "{acc@30}",
