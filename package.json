@@ -1,0 +1,85 @@
+{
+    "name": "al-lab-dark",
+    "displayName": "Ál Lab Dark",
+    "description": "A calm dark theme with a Fluent-style UI, classic C# syntax colors for Unity work and a choice of four neon accents.",
+    "version": "2.0.0",
+    "publisher": "alvaro-ruiz-lab",
+    "license": "MIT",
+    "icon": "images/icon.png",
+    "galleryBanner": {
+        "color": "#121212",
+        "theme": "dark"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/alvaro-ruiz-lab/al-lab-dark.git"
+    },
+    "bugs": {
+        "url": "https://github.com/alvaro-ruiz-lab/al-lab-dark/issues"
+    },
+    "homepage": "https://github.com/alvaro-ruiz-lab/al-lab-dark#readme",
+    "keywords": [
+        "theme",
+        "color theme",
+        "dark",
+        "dark theme",
+        "unity",
+        "csharp",
+        "c#",
+        "shader",
+        "hlsl",
+        "fluent",
+        "neon",
+        "accent"
+    ],
+    "engines": {
+        "vscode": "^1.90.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Ál Lab Dark Blue",
+                "uiTheme": "vs-dark",
+                "path": "./themes/al-lab-dark-blue-color-theme.json"
+            },
+            {
+                "label": "Ál Lab Dark Blue Bold",
+                "uiTheme": "vs-dark",
+                "path": "./themes/al-lab-dark-blue-bold-color-theme.json"
+            },
+            {
+                "label": "Ál Lab Dark Magenta",
+                "uiTheme": "vs-dark",
+                "path": "./themes/al-lab-dark-magenta-color-theme.json"
+            },
+            {
+                "label": "Ál Lab Dark Magenta Bold",
+                "uiTheme": "vs-dark",
+                "path": "./themes/al-lab-dark-magenta-bold-color-theme.json"
+            },
+            {
+                "label": "Ál Lab Dark Violet",
+                "uiTheme": "vs-dark",
+                "path": "./themes/al-lab-dark-violet-color-theme.json"
+            },
+            {
+                "label": "Ál Lab Dark Violet Bold",
+                "uiTheme": "vs-dark",
+                "path": "./themes/al-lab-dark-violet-bold-color-theme.json"
+            },
+            {
+                "label": "Ál Lab Dark Phosphor",
+                "uiTheme": "vs-dark",
+                "path": "./themes/al-lab-dark-phosphor-color-theme.json"
+            },
+            {
+                "label": "Ál Lab Dark Phosphor Bold",
+                "uiTheme": "vs-dark",
+                "path": "./themes/al-lab-dark-phosphor-bold-color-theme.json"
+            }
+        ]
+    }
+}
