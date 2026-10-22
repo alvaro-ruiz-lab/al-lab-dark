@@ -1,0 +1,4 @@
+{
+    // samples/Lumen.csproj is a syntax sample, not a real project: keep the C# extensions from loading it.
+    "dotnet.defaultSolution": "disable"
+}
