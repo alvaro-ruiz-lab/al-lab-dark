@@ -24,8 +24,11 @@ SOFTWARE.
 
 Third-party notice
 
-The syntax rules derived from the Dark+ theme come from Visual Studio Code
-(https://github.com/microsoft/vscode), licensed under the MIT License:
+Part of the syntax rules in src/al-lab-dark.base.json and in the generated
+themes (the rules whose name starts with "Dark+:") are adapted from
+extensions/theme-defaults/themes/dark_vs.json and dark_plus.json in
+Visual Studio Code - Open Source ("Code - OSS",
+https://github.com/microsoft/vscode), licensed under the MIT License:
 
 Copyright (c) 2015 - present Microsoft Corporation
 

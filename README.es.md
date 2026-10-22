@@ -152,6 +152,8 @@ El tema empezó con los colores de Visual Studio para trabajar con C# y Unity, y
 
 Publicado con la [licencia MIT](LICENSE).
 
-Las reglas de sintaxis de los lenguajes que no son C# parten del tema Dark+ de [Visual Studio Code](https://github.com/microsoft/vscode) (licencia MIT, © Microsoft Corporation). Los colores de C# siguen a Visual Studio. Ál Lab Dark no está afiliado a Microsoft.
+Las reglas de sintaxis de los lenguajes que no son C# parten del tema Dark+ de [Visual Studio Code](https://github.com/microsoft/vscode) (licencia MIT, © Microsoft Corporation); su aviso de licencia está incluido en [LICENSE](LICENSE). Los colores de C# siguen los que usa Visual Studio.
+
+Visual Studio, Visual Studio Code y VS Code son marcas de Microsoft Corporation, y Unity es una marca de Unity Technologies. Ál Lab Dark es un proyecto independiente, sin relación con ninguna de las dos empresas ni respaldo de ellas.
 
 <sub>Este tema se ha desarrollado con ayuda de herramientas de programación con IA. La extensión en sí es un tema de color sin más: no incluye funciones de IA ni ejecuta código.</sub>

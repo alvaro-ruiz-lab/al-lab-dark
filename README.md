@@ -152,6 +152,8 @@ The theme started as the Visual Studio colors for C# and Unity work, and grew fr
 
 Released under the [MIT License](LICENSE).
 
-The syntax rules for languages other than C# build on the Dark+ theme of [Visual Studio Code](https://github.com/microsoft/vscode) (MIT License, © Microsoft Corporation). The C# colors follow Visual Studio. Ál Lab Dark is not affiliated with Microsoft.
+The syntax rules for languages other than C# build on the Dark+ theme of [Visual Studio Code](https://github.com/microsoft/vscode) (MIT License, © Microsoft Corporation); its notice is included in [LICENSE](LICENSE). The C# colors follow the ones Visual Studio uses.
+
+Visual Studio, Visual Studio Code and VS Code are trademarks of Microsoft Corporation, and Unity is a trademark of Unity Technologies. Ál Lab Dark is an independent project, not affiliated with or endorsed by either company.
 
 <sub>This theme was developed with the help of AI coding tools. The extension itself is a plain color theme: it contains no AI features and runs no code.</sub>
