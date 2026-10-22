@@ -26,6 +26,8 @@ Un tema oscuro y tranquilo para Visual Studio Code, con una interfaz de estilo F
 | ![JSON con comentarios](images/screenshots/json.png) | ![Markdown](images/screenshots/markdown.png) |
 | JSON | Markdown |
 
+![Los 16 colores de la terminal y un git log en color](images/screenshots/terminal.png)
+
 ## Variantes
 
 El tema trae ocho variantes: cuatro colores de acento, cada uno en dos niveles.
@@ -38,7 +40,11 @@ El tema trae ocho variantes: cuatro colores de acento, cada uno en dos niveles.
 | Fósforo | `#57C93F` | Ál Lab Dark Phosphor | Ál Lab Dark Phosphor Bold |
 
 - **Sutil** muestra el acento solo donde trabajas: la línea bajo la pestaña activa, el icono activo de la barra de actividad, los marcos de foco, los badges, la barra de progreso y la selección teñida de las listas.
-- **Marcado** (las variantes *Bold*) añade bordes tenues del acento entre paneles y bajo las pestañas, una línea fina bajo la barra de título y sobre la de estado, y el cursor y el número de la línea actual en el color del acento.
+- **Marcado** (las variantes *Bold*) añade bordes tenues del acento alrededor y entre los paneles y bajo las pestañas, una línea fina bajo la barra de título y sobre la de estado, y el cursor y el número de la línea actual en el color del acento.
+
+| Ál Lab Dark Phosphor | Ál Lab Dark Phosphor Bold |
+| --- | --- |
+| ![Ál Lab Dark Phosphor](images/screenshots/phosphor.png) | ![Ál Lab Dark Phosphor Bold](images/screenshots/phosphor-bold.png) |
 
 Se cambia de una a otra con **Preferences: Color Theme** (`Ctrl+K Ctrl+T`). El tema se previsualiza mientras recorres la lista.
 
@@ -134,7 +140,7 @@ Los errores y sugerencias son bienvenidos en las [incidencias](https://github.co
 
 El tema empezó con los colores de Visual Studio para trabajar con C# y Unity, y fue creciendo desde ahí. Cada versión está en el [CHANGELOG.md](CHANGELOG.md). De la más reciente a la más antigua:
 
-- **2.0.0** (en preparación para el Marketplace): primera versión pública. `package.json` público, con publisher `alvaro-ruiz-lab`, licencia MIT y enlaces al repositorio; el ID de la extensión es `alvaro-ruiz-lab.al-lab-dark`. Las variantes se llaman por su acento para que se ordenen juntas (Ál Lab Dark Blue, Magenta, Violet y Phosphor, cada una con su nivel *Bold*). Icono nuevo: un cubo con los cuatro acentos y LAB como protagonista.
+- **2.0.0** (en preparación para el Marketplace): primera versión pública. `package.json` público, con publisher `alvaro-ruiz-lab`, licencia MIT y enlaces al repositorio; el ID de la extensión es `alvaro-ruiz-lab.al-lab-dark`. Las variantes se llaman por su acento para que se ordenen juntas (Ál Lab Dark Blue, Magenta, Violet y Phosphor, cada una con su nivel *Bold*). Icono nuevo: un cubo con los cuatro acentos y LAB como protagonista. Compatible con la interfaz moderna de las versiones recientes de VS Code: sus paneles flotantes llevan los bordes del tema (en el color del acento en las variantes *Bold*).
 - **Sintaxis para todos los lenguajes** (sin cambio de versión): la base son las reglas de Dark+ con los strings, comentarios y palabras de control de Visual Studio, y encima van reglas para shaders de Unity y HLSL, C/C++, YAML, Python, Bash, diff, commits de Git y Razor. Rust, Go, Java, PHP y TSX pasan de salir casi todo en blanco a tener color. En C# cambian, a propósito: números (`#B5CEA8`), `true`/`false`/`null` (azul), operadores (de azul a `#D4D4D4`) y tipos sin cargar el proyecto (de blanco a verde azulado); se añaden los semánticos de namespaces, eventos, constantes, miembros de enum, delegados, parámetros de tipo, métodos de extensión, escapes, código excluido y `[Obsolete]` (tachado). Arreglado: las llamadas a funciones pintaban de amarillo los argumentos y paréntesis en Python, JS y Java, y en TypeScript las interfaces y enums salían amarillos por reglas de C#.
 - **Interfaz completa y acentos** (sin cambio de versión; la 2.0.0 llegará al publicar): 8 variantes con 4 acentos y 2 niveles, generadas desde un único tema base. La interfaz pasa de 115 a 378 colores: Git, errores y avisos, terminal (16 colores ANSI), sugerencias, hover, paleta de comandos, peek, notificaciones, corchetes por pares (dorado, morado y azul), minimapa, depurador, ajustes, chat y notebooks. Antes, todo eso salía con los colores de Dark+. Además: la pestaña activa solo lleva línea abajo; la selección de las listas y los menús se tiñe del acento; los avisos usan un amarillo más distinto del rojo (`#DDBF00`); la barra de estado ya no se pone morada sin carpeta ni naranja pleno al depurar; los números de línea suben de `#565656` a `#6E6E6E` para leerse mejor. El diff de Git sigue con los colores de VS Code, que se leen mejor. Los colores del código no cambian.
 - **1.3.0**: pestañas con más contraste. La barra de pestañas es más oscura (`#0A0A0A`), las inactivas quedan en un punto intermedio (`#141414`) y la activa es más clara (`#242424`), con borde azul arriba y abajo (`tab.activeBorderTop` y `tab.activeBorder`) a modo de contorno, y separadores visibles entre pestañas. Si el grupo de editores no tiene el foco, la pestaña activa se ve en gris en lugar de azul. Antes la pestaña activa tenía el mismo color que el fondo del editor y casi no se distinguía de las demás. Solo cambia el aspecto de las pestañas; el resto del tema queda igual.
