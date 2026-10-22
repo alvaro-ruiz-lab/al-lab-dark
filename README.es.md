@@ -4,6 +4,8 @@ Un tema oscuro y tranquilo para Visual Studio Code, con una interfaz de estilo F
 
 [Read in English](README.md)
 
+![C# en Ál Lab Dark Blue](images/screenshots/csharp.png)
+
 ## Características
 
 - **Cuida la vista.** Fondos casi negros, texto con buen contraste y un acento que solo aparece en líneas finas, badges y marcos de foco. Las superficies grandes, la barra de título y la barra de estado siguen oscuras.
@@ -12,6 +14,17 @@ Un tema oscuro y tranquilo para Visual Studio Code, con una interfaz de estilo F
 - **El resto de lenguajes.** JSON, YAML, Python, PowerShell, Bash, SQL, C/C++, Rust, Go, Java, PHP, web y Markdown usan las reglas Dark+ de VS Code, adaptadas a la misma paleta.
 - **Interfaz completa.** Unos 380 colores de interfaz: Git, diff, diagnósticos, terminal, depurador, notebooks, chat y más. Nada recurre a un color por defecto que desentone.
 - **Diagnósticos legibles.** Errores, avisos y cambios de Git usan un rojo, un amarillo y un verde bien distintos.
+
+## Capturas
+
+| | |
+| --- | --- |
+| ![Compute shader en HLSL](images/screenshots/hlsl.png) | ![HTML](images/screenshots/html.png) |
+| HLSL | HTML |
+| ![JavaScript](images/screenshots/javascript.png) | ![YAML](images/screenshots/yaml.png) |
+| JavaScript | YAML |
+| ![JSON con comentarios](images/screenshots/json.png) | ![Markdown](images/screenshots/markdown.png) |
+| JSON | Markdown |
 
 ## Variantes
 

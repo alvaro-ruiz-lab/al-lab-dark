@@ -419,7 +419,7 @@
                 "header"
             ],
             "settings": {
-                "foreground": "#000080"
+                "foreground": "#569CD6"
             }
         },
         {
@@ -458,7 +458,7 @@
                 "constant.regexp"
             ],
             "settings": {
-                "foreground": "#646695"
+                "foreground": "#D16969"
             }
         },
         {

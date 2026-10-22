@@ -9,7 +9,7 @@
     },
     "omnisharp.path": null,
     "workbench.colorCustomizations": {
-        "[Ál Lab Dark]": { "editorCursor.foreground": "#57C93F" }
+        "[Ál Lab Dark Blue]": { "editorCursor.foreground": "#57C93F" }
     },
     "recentFiles": ["Assets/Scenes/Main.unity", "Assets/Scripts/PlayerController.cs"],
     "scale": 1.5e-2

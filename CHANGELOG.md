@@ -29,6 +29,7 @@ First public release, published as `alvaro-ruiz-lab.al-lab-dark`. Versions 1.0 t
 - Function calls painted their arguments and parentheses yellow in Python, JavaScript and Java.
 - Code inside template literals and embedded `<script>` and `<style>` blocks picked up the wrong colors.
 - Blazor components were shown as invalid tags.
+- Two legacy Dark+ colors (`header` and `constant.regexp`) were nearly unreadable on a dark background; they now use the heading blue and the regular expression red.
 
 ## [1.3.0]
 
