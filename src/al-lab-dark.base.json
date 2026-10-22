@@ -13,6 +13,8 @@
         "widget.shadow": "#00000099",
         "selection.background": "#264F78",
         "sash.hoverBorder": "{acc}",
+        "surface.border": "#262626",
+        "modernSash.gripForeground": "#CCCCCC66",
         "scrollbar.shadow": "#00000066",
         "textLink.foreground": "#4EC9B0",
         "textLink.activeForeground": "#6FD9C4",
@@ -404,6 +406,8 @@
         "notebookStatusRunningIcon.foreground": "#CCCCCC"
     },
     "$bold": {
+        "surface.border": "{acc@30}",
+        "modernSash.gripForeground": "{acc@60}",
         "editorCursor.foreground": "{accText}",
         "editorLineNumber.activeForeground": "{accText}",
         "sideBar.border": "{acc@30}",

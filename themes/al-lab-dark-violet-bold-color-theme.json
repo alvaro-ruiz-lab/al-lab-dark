@@ -13,6 +13,8 @@
         "widget.shadow": "#00000099",
         "selection.background": "#264F78",
         "sash.hoverBorder": "#A07BFF",
+        "surface.border": "#A07BFF4D",
+        "modernSash.gripForeground": "#A07BFF99",
         "scrollbar.shadow": "#00000066",
         "textLink.foreground": "#4EC9B0",
         "textLink.activeForeground": "#6FD9C4",
