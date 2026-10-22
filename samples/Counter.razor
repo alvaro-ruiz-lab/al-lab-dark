@@ -1,0 +1,29 @@
+@page "/counter"
+@using Lumen.Web.Services
+@inject ScoreService Scores
+
+<h1>Puntuación</h1>
+
+<p role="status">Total: @currentCount</p>
+
+<ScoreBoard Players="@players" OnSelect="HandleSelect" />
+
+<button class="btn btn-primary" @onclick="IncrementCount">Sumar</button>
+
+@if (currentCount > 10)
+{
+    <p>¡Récord!</p>
+}
+
+@code {
+    private int currentCount = 0;
+    private List<string> players = new();
+
+    private async Task IncrementCount()
+    {
+        currentCount++;
+        await Scores.SaveAsync(currentCount);
+    }
+
+    private void HandleSelect(string name) => players.Add(name);
+}

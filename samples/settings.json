@@ -1,0 +1,16 @@
+{
+    // Ajustes del proyecto (JSONC)
+    "editor.fontFamily": "'Cascadia Code', Consolas, monospace",
+    "editor.fontSize": 14,
+    "editor.minimap.enabled": false,
+    "files.exclude": {
+        "**/*.meta": true,
+        "Library/": true
+    },
+    "omnisharp.path": null,
+    "workbench.colorCustomizations": {
+        "[Ál Lab Dark]": { "editorCursor.foreground": "#57C93F" }
+    },
+    "recentFiles": ["Assets/Scenes/Main.unity", "Assets/Scripts/PlayerController.cs"],
+    "scale": 1.5e-2
+}

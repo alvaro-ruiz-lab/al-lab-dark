@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Lumen &mdash; WebGL</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body { margin: 0; background: #161616; }
+    </style>
+</head>
+<body>
+    <!-- Contenedor del juego -->
+    <div id="unity-container" class="unity-desktop" data-build="0.4.0">
+        <canvas id="unity-canvas" width="960" height="600" tabindex="-1"></canvas>
+        <button type="button" onclick="toggleFullscreen()" disabled>Pantalla completa</button>
+    </div>
+    <script src="Build/loader.js"></script>
+    <script>
+        const config = { dataUrl: "Build/game.data", streamingAssetsUrl: "StreamingAssets" };
+        createUnityInstance(document.querySelector("#unity-canvas"), config).then(i => window.game = i);
+    </script>
+</body>
+</html>

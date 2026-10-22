@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <Style src="Menu.uss" />
+    <ui:VisualElement name="root" class="menu menu--dark">
+        <ui:Label text="Lumen" class="menu__title" />
+        <ui:Button name="play" text="Jugar" focusable="true" />
+        <ui:Slider label="Volumen" low-value="0" high-value="1" value="0.8" />
+    </ui:VisualElement>
+</ui:UXML>

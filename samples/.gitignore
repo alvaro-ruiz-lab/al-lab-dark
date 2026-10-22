@@ -1,0 +1,8 @@
+# Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Bb]uild/
+*.csproj
+*.sln
+!/Assets/Plugins/**/*.dll
+.vs/

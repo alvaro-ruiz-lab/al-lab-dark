@@ -1,0 +1,12 @@
+Fix jump height when grounded
+
+The jump used the wrong gravity sign after the physics refactor.
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Changes to be committed:
+#	modified:   Assets/Scripts/PlayerController.cs
+#	new file:   Assets/Scripts/JumpSettings.cs
+#	deleted:    Assets/Scripts/OldJump.cs
+#

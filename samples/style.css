@@ -1,0 +1,21 @@
+@import url("reset.css");
+
+:root {
+    --accent: #0078D4;
+    --gutter: 16px;
+}
+
+/* Contenedor del canvas */
+#unity-container.unity-desktop > canvas,
+.panel:hover::after {
+    display: flex;
+    width: calc(100% - var(--gutter) * 2);
+    margin: 0 auto !important;
+    color: rgb(232 232 232 / 90%);
+    font-family: "Cascadia Code", Consolas, monospace;
+    transition: opacity 0.2s ease-in-out;
+}
+
+@media (max-width: 640px) {
+    .panel { padding: 8px 1.5em; }
+}

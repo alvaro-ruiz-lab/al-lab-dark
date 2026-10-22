@@ -1,0 +1,11 @@
+# Estilo del código C#
+root = true
+
+[*.cs]
+indent_style = space
+indent_size = 4
+dotnet_sort_system_directives_first = true
+csharp_style_var_for_built_in_types = false:suggestion
+
+[*.{json,yaml}]
+indent_size = 2
