@@ -1,0 +1,12 @@
+# Only the manifest, the generated themes, the icon and the docs go into the package.
+.vscode/**
+.gitattributes
+.gitignore
+src/**
+scripts/**
+samples/**
+docs/**
+images/screenshots/**
+CLAUDE.md
+CONTRIBUTING.md
+*.vsix
