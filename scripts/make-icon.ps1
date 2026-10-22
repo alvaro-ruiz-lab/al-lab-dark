@@ -24,9 +24,10 @@ function Brush($h) { New-Object System.Drawing.SolidBrush (Hex $h) }
 function Pt($x, $y) { New-Object System.Drawing.PointF ([single]$x), ([single]$y) }
 function Seg($pen, $p1, $p2) { $g.DrawLine($pen, [single]$p1.X, [single]$p1.Y, [single]$p2.X, [single]$p2.Y) }
 
-$family = New-Object System.Drawing.FontFamily "Segoe UI Semibold"
+$family = New-Object System.Drawing.FontFamily "Cascadia Code SemiBold"
 function GlyphPath($text) {
-    $p = New-Object System.Drawing.Drawing2D.GraphicsPath
+    # Winding: Cascadia es una fuente variable con contornos superpuestos; en modo Alternate saldrían huecos
+    $p = New-Object System.Drawing.Drawing2D.GraphicsPath ([System.Drawing.Drawing2D.FillMode]::Winding)
     $p.AddString($text, $family, 0, 100, (Pt 0 0), [System.Drawing.StringFormat]::GenericTypographic)
     return $p
 }
