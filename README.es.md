@@ -11,9 +11,23 @@ Un tema oscuro y tranquilo para Visual Studio Code, con una interfaz de estilo F
 - **Cuida la vista.** Fondos casi negros, texto con buen contraste y un acento que solo aparece en líneas finas, badges y marcos de foco. Las superficies grandes, la barra de título y la barra de estado siguen oscuras.
 - **C# como en Visual Studio.** Palabras clave, tipos, métodos, variables locales y campos mantienen los colores de Visual Studio, también los colores semánticos de la extensión de C#: structs, interfaces y enums en amarillo; clases en verde azulado; campos y propiedades en blanco.
 - **Listo para Unity.** También se colorean los shaders (ShaderLab y HLSL), USS, UXML, Razor y los `.csproj`.
-- **El resto de lenguajes.** JSON, YAML, Python, PowerShell, Bash, SQL, C/C++, Rust, Go, Java, PHP, web y Markdown usan las reglas Dark+ de VS Code, adaptadas a la misma paleta.
+- **El resto de lenguajes.** Los lenguajes web, de scripting, de datos y de sistemas [de la lista de abajo](#lenguajes-soportados) usan las reglas Dark+ de VS Code, adaptadas a la misma paleta.
 - **Interfaz completa.** Unos 380 colores de interfaz: Git, diff, diagnósticos, terminal, depurador, notebooks, chat y más. Nada recurre a un color por defecto que desentone.
 - **Diagnósticos legibles.** Errores, avisos y cambios de Git usan un rojo, un amarillo y un verde bien distintos.
+
+## Lenguajes soportados
+
+C# lleva los colores de Visual Studio; el resto de lenguajes parte de las reglas Dark+ de VS Code, adaptadas a la misma paleta.
+
+| Grupo | Lenguajes |
+| --- | --- |
+| .NET | C# (con colores semánticos), Razor y Blazor (`.razor`, `.cshtml`), `.csproj` (XML) |
+| Unity | ShaderLab (`.shader`), HLSL (`.hlsl`, compute shaders), USS, UXML |
+| Web | HTML, CSS, JavaScript, TypeScript, JSX y TSX, PHP |
+| Sistemas y backend | C y C++, Rust, Go, Java, Python, SQL |
+| Scripting | PowerShell, Bash |
+| Datos y configuración | JSON y JSON con comentarios, YAML, `.editorconfig`, `.gitignore` |
+| Texto y Git | Markdown, diff, mensajes de commit de Git |
 
 ## Capturas
 

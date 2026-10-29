@@ -11,9 +11,23 @@ A calm dark theme for Visual Studio Code with a Fluent-style interface, the C# c
 - **Easy on the eyes.** Near-black backgrounds, high-contrast text and an accent that only appears in thin lines, badges and focus rings. Large surfaces, the title bar and the status bar stay dark.
 - **C# as in Visual Studio.** Keywords, types, methods, locals and fields keep the colors you know from Visual Studio, including the semantic colors of the C# extension: structs, interfaces and enums in yellow, classes in teal, fields and properties in white.
 - **Unity-ready.** Shaders (ShaderLab and HLSL), USS, UXML, Razor and `.csproj` files are colored too.
-- **Every other language.** JSON, YAML, Python, PowerShell, Bash, SQL, C/C++, Rust, Go, Java, PHP, web and Markdown use the Dark+ rules of VS Code, adapted to the same palette.
+- **Every other language.** The web, scripting, data and systems languages [listed below](#supported-languages) use the Dark+ rules of VS Code, adapted to the same palette.
 - **A complete interface.** Around 380 interface colors: Git, diff, diagnostics, terminal, debugger, notebooks, chat and more. Nothing falls back to a mismatched default.
 - **Readable diagnostics.** Errors, warnings and Git changes use clearly distinct red, yellow and green.
+
+## Supported languages
+
+C# has the colors of Visual Studio; every other language starts from the Dark+ rules of VS Code, adapted to the same palette.
+
+| Group | Languages |
+| --- | --- |
+| .NET | C# (with semantic colors), Razor and Blazor (`.razor`, `.cshtml`), `.csproj` (XML) |
+| Unity | ShaderLab (`.shader`), HLSL (`.hlsl`, compute shaders), USS, UXML |
+| Web | HTML, CSS, JavaScript, TypeScript, JSX and TSX, PHP |
+| Systems and backend | C and C++, Rust, Go, Java, Python, SQL |
+| Scripting | PowerShell, Bash |
+| Data and configuration | JSON and JSON with comments, YAML, `.editorconfig`, `.gitignore` |
+| Text and Git | Markdown, diff, Git commit messages |
 
 ## Screenshots
 
