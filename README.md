@@ -22,7 +22,7 @@ C# has the colors of Visual Studio; every other language starts from the Dark+ r
 | Group | Languages |
 | --- | --- |
 | .NET | C# (with semantic colors), Razor and Blazor (`.razor`, `.cshtml`), `.csproj` (XML) |
-| Unity | ShaderLab (`.shader`), HLSL (`.hlsl`, compute shaders), USS, UXML |
+| Unity | ShaderLab (`.shader`), HLSL (`.hlsl`, compute shaders), USS, UXML, WebGL plugins (`.jslib`, `.jspre`, as JavaScript) |
 | Web | HTML, CSS, JavaScript, TypeScript, JSX and TSX, PHP |
 | Systems and backend | C and C++, Rust, Go, Java, Python, SQL |
 | Scripting | PowerShell, Bash |

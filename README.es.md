@@ -22,7 +22,7 @@ C# lleva los colores de Visual Studio; el resto de lenguajes parte de las reglas
 | Grupo | Lenguajes |
 | --- | --- |
 | .NET | C# (con colores semánticos), Razor y Blazor (`.razor`, `.cshtml`), `.csproj` (XML) |
-| Unity | ShaderLab (`.shader`), HLSL (`.hlsl`, compute shaders), USS, UXML |
+| Unity | ShaderLab (`.shader`), HLSL (`.hlsl`, compute shaders), USS, UXML, plugins de WebGL (`.jslib`, `.jspre`, como JavaScript) |
 | Web | HTML, CSS, JavaScript, TypeScript, JSX y TSX, PHP |
 | Sistemas y backend | C y C++, Rust, Go, Java, Python, SQL |
 | Scripting | PowerShell, Bash |

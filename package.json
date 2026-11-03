@@ -39,6 +39,15 @@
         "Themes"
     ],
     "contributes": {
+        "languages": [
+            {
+                "id": "javascript",
+                "extensions": [
+                    ".jslib",
+                    ".jspre"
+                ]
+            }
+        ],
         "themes": [
             {
                 "label": "Ál Lab Dark Blue",
