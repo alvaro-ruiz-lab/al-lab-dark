@@ -2,7 +2,7 @@
 
 All notable changes to Ál Lab Dark are listed here.
 
-## [2.0.0] - Unreleased
+## [2.0.0] - 2026-11-21
 
 First public release, published as `alvaro-ruiz-lab.al-lab-dark`. Versions 1.0 to 1.3 were not published.
 
